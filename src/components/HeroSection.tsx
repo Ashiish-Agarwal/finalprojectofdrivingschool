@@ -81,11 +81,11 @@ const HeroSection = () => {
 
           {/* Right Content - Service Cards */}
           <div className="w-full flex  flex-col  items-end justify-end h-full mt-32">
-          <div className=" flex w-[50%]    ">
+          <div className=" flex w-[50%]     ">
            
               <Card
                 
-                className=" bg-transparent backdrop-blur-sm border-border hover:border-accent transition-all duration-300 hover-lift overflow-hidden "
+                className=" hidden md:block bg-transparent backdrop-blur-sm border-border hover:border-accent transition-all duration-300 hover-lift overflow-hidden "
                 
               >
                 <CardContent className=" flex flex-col  space-y-3 w-full  ">
