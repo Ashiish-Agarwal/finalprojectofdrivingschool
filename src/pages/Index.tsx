@@ -10,19 +10,19 @@ import { ReactLenis, useLenis } from 'lenis/react'
 
 const Index = () => {
   const lenis = useLenis((lenis) => {
-    // called every scroll
-    console.log(lenis)
+    
+    
   })
   return (
      
 
+    <div className="min-h-screen">
            <ReactLenis root options={{
       lerp: 0.05,
       duration: 1.2,
       smoothWheel: true,
-      wheelMultiplier: 1,
-    }}>
-    <div className="min-h-screen">
+      wheelMultiplier: 1.4,
+    }} />
             <Navbar />
       <main>
         <HeroSection />
@@ -34,7 +34,6 @@ const Index = () => {
       </main>
       <Footer />
     </div>
-    </ReactLenis>
   );
 };
 
